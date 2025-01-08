@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* shared style */
+
+/* body style */
+body{
+    margin: 0 auto;
+}
+
+/* header */
+.header{
+    background-image: url("../images/Banner\ Image.png");
+}
