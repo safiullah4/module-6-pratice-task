@@ -14,7 +14,7 @@
 }
 /* body style */
 body{
-    margin: 0 auto 120px auto;
+    margin: 0 auto;
     max-width: 1320px;
 }
 
@@ -59,7 +59,7 @@ body{
 .offer{
     width: 803px;
     height: 806px;
-    border: 2px solid red;
+
     margin: 0 auto 120px auto;
     text-align: center;
 }
@@ -120,6 +120,7 @@ height: 103px; */
 
 .party{
 background:linear-gradient(to right, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0) 100%), url(../images/Vectorrr.png);
+margin-bottom: 120px;
 }
 
 .party-text-div{
@@ -148,6 +149,33 @@ background:linear-gradient(to right, rgba(0, 0, 0, 0.8) 20%, rgba(0, 0, 0, 0) 10
     background: none;
     font-weight: bold;
 }
-.party-image-div{
 
+/* join style */
+.join-now{
+    width: 1320px;
+    height: 482px;
+    background-color: hsl(0, 82%, 94%);
+    border-radius: 30px;
+    margin-bottom: 120px;
 }
+
+.join-now-container{
+    flex-direction: column;
+}
+
+.join-now-description{
+    font-size: 32px;
+    width: 550px;
+    height: 160px;
+    text-align: center;
+}
+.join-now-btn{
+    color: white;
+    width: 167px;
+    height: 57px;
+    font-weight: bold;
+    background-color: #FF0000;
+    border: none;
+    border-radius: 10px;
+}
+
