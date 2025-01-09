@@ -4,13 +4,55 @@
 }
 
 /* shared style */
-
+.color-1{
+    color: #FF0000;
+}
 /* body style */
 body{
     margin: 0 auto;
+    max-width: 1320px;
 }
 
 /* header */
 .header{
+    
+    height: 600px;
+    margin: 0 auto 120px auto;
     background-image: url("../images/Banner\ Image.png");
+    margin-top: 60px;
+    /* padding: 177px auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-container{
+    width: 632px;
+    height: 246px;
+    color: #FFFFFF;
+
+}
+
+.banner-subtitle{
+    width: 632px;
+    height: 40px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.banner-title{
+    width: 632px;
+    height: 190px;
+    text-align: center;
+    font-size: 72px;
+}
+
+/* offer style */
+.offer{
+    width: 803px;
+    height: 806px;
+    border: 2px solid red;
 }
